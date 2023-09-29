@@ -1,14 +1,21 @@
 import axios from "axios"
+import "./style.css"
 
 export default function Home({ commits }) {
   return (
-    <div>
-      <h1>Historial de Commits</h1>
-      <ul>
-        {commits.map((commit) => (
-          <li key={commit.sha}>{commit.commit.message}</li>
-        ))}
-      </ul>
+    <div className='backgroundContainer'>
+      <div className='container'>
+        <h1 className='font-serif'>
+          Historial de Commits <br /> By: Jair Merlo
+        </h1>
+        <div className='ulContainer'>
+          <ul>
+            {commits.map((commit) => (
+              <li key={commit.sha}>{commit.commit.message}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </div>
   )
 }

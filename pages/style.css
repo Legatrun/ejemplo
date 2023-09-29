@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backgroundContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 5%;
+  padding: 3rem;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.ulContainer {
+  max-height: 300px;
+  overflow: auto;
+}
+
+li {
+  margin-bottom: 5px;
+}
