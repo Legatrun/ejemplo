@@ -6,7 +6,7 @@ export default function Home({ commits }) {
     <div className='backgroundContainer'>
       <div className='container'>
         <h1 className='font-serif'>
-          Historial de Commits <br /> y: Jair Merlo
+          Historial de Commits <br /> By: Jair Merlo
         </h1>
         <div className='ulContainer'>
           <ul>
