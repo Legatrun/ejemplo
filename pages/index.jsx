@@ -33,7 +33,6 @@ export async function getServerSideProps() {
     })
 
     const commits = response.data
-
     return {
       props: { commits }
     }
