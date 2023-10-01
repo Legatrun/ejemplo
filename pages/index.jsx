@@ -1,5 +1,4 @@
 import axios from "axios"
-import "./style.css"
 
 export default function Home({ commits }) {
   return (
@@ -21,7 +20,7 @@ export default function Home({ commits }) {
 }
 
 export async function getServerSideProps() {
-  const githubAccessToken = process.env.GITHUB_ACCESS_TOKEN
+  const githubAccessToken = "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"
   const owner = "jairmerlo"
   const repo = "ejemplo"
 
