@@ -20,7 +20,7 @@ export default function Home({ commits }) {
 }
 
 export async function getServerSideProps() {
-  const githubAccessToken = "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"
+  const githubAccessToken = "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"
   const owner = "jairmerlo"
   const repo = "ejemplo"
 
